@@ -1,0 +1,94 @@
+/* Site Padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* headers */
+h1{
+    background-color: dodgerblue;
+    text-align: center;
+    font-size: 65px    
+}
+
+/* About Me section */
+#about_me{
+    position: absolute;
+    left: 250px;
+    margin-top: 12px;
+    border: 3px solid white;
+    padding: 2px;
+}
+
+.about_me{
+    position: relative;
+    background-color: dodgerblue;
+    margin-top: 25px;
+    height: 296px;
+}
+
+.about_me p{
+    position: absolute;
+    left: 250px;
+    top: 65px;
+}
+
+/* My Work section */
+.my_work{
+    position: relative;
+    background-color: dodgerblue;
+    margin-top: 25px;
+    height: 200px;
+}
+
+#my_work{
+    position: absolute;
+    margin-top: 12px;
+    border: 3px solid white;
+    padding: 2px;
+}
+
+/* Contact Me section */
+.contact_me{
+    position: relative;
+    background-color: dodgerblue;
+    margin-top: 25px;
+    height: 200px;
+}
+
+.contact_me ul{
+    position: absolute;
+    top: 65px;
+    font-size: 20px;
+}
+
+#contact_me{
+    position: absolute;
+    margin-top: 12px;
+    border: 3px solid white;
+    padding: 2px;
+}
+
+/* Image Size */
+.image_size{
+    width: 200px;
+    position: absolute;
+    padding: 15px;
+}
+
+/* Buttons */
+.button_position{
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.button_position a{
+    font-size: 200%;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: goldenrod;
+    border-radius: 8px;
+    padding: 5px;
+}
