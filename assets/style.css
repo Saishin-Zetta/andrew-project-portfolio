@@ -16,8 +16,8 @@ h1{
 /* About Me section */
 #about_me{
     position: absolute;
-    left: 250px;
-    margin-top: 12px;
+    left: 200px;
+    margin-top: 15px;
     border: 3px solid white;
     padding: 2px;
 }
@@ -31,11 +31,11 @@ h1{
 
 .about_me p{
     position: absolute;
-    left: 250px;
-    top: 65px;
+    left: 200px;
+    top: 75px;
     display: flex;
     flex-wrap: wrap;
-    word-break: break-all;
+    word-break: normal;
 }
 
 /* My Work section */
@@ -80,7 +80,6 @@ h1{
 /* Image Size & placement & border */
 .profile_pic{
     width: 200px;
-    position: absolute;
     padding: 15px;
     bottom: 3px;
 }
@@ -133,9 +132,28 @@ h1{
     padding: 5px;
 }
 
-/* Responsive Layout */
-@media screen and (max-width: 768px){
+/* Responsive Layout (works for iphone 12, desktop, and laptop */
+@media screen and (max-width: 390px){
+    .centering_images{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_image{
+        margin-top: 15%;
+    }
+    .work_images{
+        margin-top: 145%;
+    }
+    .idv_image1{
+        margin-top: 7%;
+    }
+    .idv_image2{
+        margin-top: 7%;
+    }
     .my_work{
-        height: 800px;
+        height: 1430px;
+    }
+    .about_me{
+        height: 445px;
     }
 }
